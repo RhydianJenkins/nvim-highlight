@@ -11,7 +11,7 @@ Uses the LSP client attached to the buffer to run `textDocument/documentHighligh
 {
   "rhydianjenkins/nvim-highlight",
   config = function()
-    require("document-highlight").setup({
+    require("nvim-highlight").setup({
       delay = 500,    -- optional: delay in milliseconds (default: 500)
       enabled = true  -- optional: enable/disable plugin (default: true)
     })
