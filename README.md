@@ -6,7 +6,7 @@ Uses the LSP client attached to the buffer to run `textDocument/documentHighligh
 
 ## Installation
 
-```sh
+```lua
 -- With lazy.nvim
 {
   "rhydianjenkins/nvim-highlight",
