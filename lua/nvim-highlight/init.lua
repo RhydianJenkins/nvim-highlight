@@ -20,7 +20,7 @@ local function clear_timer()
 end
 
 local function has_document_highlight_support()
-    for _, client in pairs(vim.lsp.get_active_clients({ bufnr = 0 })) do
+    for _, client in pairs(vim.lsp.get_clients({ bufnr = 0 })) do
         if client.supports_method("textDocument/documentHighlight") then
             return true
         end
