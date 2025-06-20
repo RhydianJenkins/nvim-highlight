@@ -74,7 +74,6 @@ local function setup_autocommands()
 end
 
 function M.setup(opts)
-    vim.print('rhydiian setup')
     opts = opts or {}
     state.config = vim.tbl_deep_extend("force", default_config, opts)
     setup_autocommands()
